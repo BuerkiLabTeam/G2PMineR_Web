@@ -312,7 +312,7 @@ All_Consensus <- G2PMineR::ConsensusInferreR(Ta = AbstractsSppLong,
                                             AbstractsSpp = AbstractsSpp,
                                             GenesOut = GenesOut,
                                             AbsPhen = AbsPhen)
-# To make a consensus of just a pair
+# To make a consensus of just a pair, if one result is empty
 GbyP_Consensus <- G2PMineR::ConsensusInferreR(Ta = NULL,
                                             G = GenesOutLong,
                                             P = AbsPhenLong,
@@ -484,7 +484,7 @@ dev.off()
 
 ### Output
 
-The overall output is a matrix (not neccessarily square) that can be used to make the bipartite graphs and the bipartite graphs themselves.
+The overall output is a matrix (not neccessarily square) that can be used to make the bipartite graphs and the bipartite graphs themselves. NOTE: if bipartite::plotweb produces an error, add the argument **method='normal'** to it.
 
 
 ## Making biparitite graphs for just the consensus data
