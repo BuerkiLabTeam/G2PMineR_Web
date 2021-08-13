@@ -19,3 +19,5 @@ navbar:
       href: Funding.html
     - text: "License"
       href: License.html
+    - text: "Student Hypotheses"
+      href: StudentHypotheses.html

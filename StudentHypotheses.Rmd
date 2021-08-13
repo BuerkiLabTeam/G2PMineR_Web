@@ -1,0 +1,31 @@
+---
+title: "Student Hypotheses"
+date: "`r Sys.Date()`"
+output:
+#  bookdown::pdf_document2:
+#    toc: TRUE
+  bookdown::html_document2: 
+    toc: TRUE
+    toc_float: TRUE
+    theme: united
+link-citations: yes
+fontsize: 12pt
+urlcolor: blue
+csl: AmJBot.csl
+bibliography: References.bib
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{js logo-js, echo=FALSE}
+$(document).ready(function() {
+  $('#header').parent().prepend('<div id=\"logo\"><img src=\"Images/G2PMineR_logo.jpg\" style=\"position:absolute; top:0; right:0; padding:10px; height:100px\"></div>');
+  $('#header').css('margin-right', '120px')
+});
+```
+
+# Coming Soon!
+
+## This section of the website makes publically-available the results of student-led EasyG2PMineR analyses!
+
